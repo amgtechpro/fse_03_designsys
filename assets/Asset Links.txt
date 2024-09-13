@@ -1,0 +1,33 @@
+
+
+Colors:
+
+/* CSS HEX */
+eerie-black: #181f1cff;
+cal-poly-green: #274029ff;
+hunter-green: #315c2bff;
+fern-green: #60712fff;
+apple-green: #9ea93fff;
+
+/* CSS HSL */
+eerie-black: hsla(154, 13%, 11%, 1);
+cal-poly-green: hsla(125, 24%, 20%, 1);
+hunter-green: hsla(113, 36%, 26%, 1);
+fern-green: hsla(75, 41%, 31%, 1);
+apple-green: hsla(66, 46%, 45%, 1);
+
+/* SCSS RGB */
+eerie-black: rgba(24, 31, 28, 1);
+cal-poly-green: rgba(39, 64, 41, 1);
+hunter-green: rgba(49, 92, 43, 1);
+fern-green: rgba(96, 113, 47, 1);
+apple-green: rgba(158, 169, 63, 1);
+
+
+
+Fonts:
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+

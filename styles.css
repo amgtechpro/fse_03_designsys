@@ -1,0 +1,248 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+/* Styling for h1 */
+header h1 {
+    color: #274029ff; /* Cal Poly Green for main heading */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+/* Basic Layout and Wrapper for the Page Content */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styling for links */
+a {
+    color: #274029ff; /* Cal Poly Green */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #315c2bff; /* Hunter Green */
+    text-decoration: underline;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #181f1cff; /* Eerie Black */
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+/* General text styling */
+p {
+    margin: 10px 0;
+    font-size: 1.1em;
+    color: #60712fff; /* Fern Green for general text */
+}
+
+/* Optional additional styles */
+button {
+    padding: 10px 20px;
+    background-color: #274029ff; /* Cal Poly Green */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #315c2bff; /* Hunter Green */
+}
+
+
+/* ################################################## */
+/* Table Styling */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc; /* Delimit cells */
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for each row background color and text contrast */
+tbody tr:nth-child(1) {
+    background-color: #181f1cff; /* eerie-black */
+    color: white; /* White text for contrast on dark background */
+}
+
+tbody tr:nth-child(2) {
+    background-color: #274029ff; /* cal-poly-green */
+    color: white; /* White text for contrast on dark background */
+}
+
+tbody tr:nth-child(3) {
+    background-color: #315c2bff; /* hunter-green */
+    color: white; /* White text for contrast on dark background */
+}
+
+tbody tr:nth-child(4) {
+    background-color: #60712fff; /* fern-green */
+    color: white; /* White text for contrast on dark background */
+}
+
+tbody tr:nth-child(5) {
+    background-color: #9ea93fff; /* apple-green */
+    color: black; /* Black text for contrast on light background */
+}
+
+/* Optional: Header styling */
+thead th {
+    background-color: #333; /* Dark header background */
+    color: white;           /* White text for header */
+    font-weight: bold;
+}
+
+
+/* Font Examples */
+/* Lora Styles */
+.lora-normal {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.lora-bold {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.lora-italic {
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Montserrat Styles */
+.montserrat-normal {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.montserrat-bold {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.montserrat-italic {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+/* Source Code Pro Styles */
+.sourcecode-normal {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.sourcecode-bold {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.sourcecode-italic {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/* Text styles specifically for the table cells */
+
+/* Styling for the "Main page heading" in the table */
+.h1-example {
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    font-size: 26px;
+}
+
+/* Styling for the "Subheading" in the table */
+.h6-example {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+/* Styling for the "Paragraph text" in the table */
+.p-example {
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+
+#colors h2 {
+    background-color: rgba(24, 31, 28, 1);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    
+}
+
+#fonts h2 {
+    background-color: rgba(49, 92, 43, 1);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+
+}
+
+#styling h2 {
+    background-color: rgba(158, 169, 63, 1);
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
